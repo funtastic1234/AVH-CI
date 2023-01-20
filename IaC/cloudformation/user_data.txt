@@ -16,8 +16,4 @@ echo "csolution: $(which csolution)"
 echo "csolution version: $(csolution --version)"
 echo "cbuild: $(which cbuild)"
 echo "cbuild version: $(cbuild --version)"
-package_update: false
-package_upgrade: false
-runcmd:
-set -e
 
